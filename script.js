@@ -4,6 +4,7 @@ function checkInput() {
 
     if (num1 > 20 || num2 > 20) {
         alert('Input numbers should not be greater than 20.');
+        return
     }
 }
 

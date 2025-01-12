@@ -17,11 +17,12 @@ body {
     height: 100vh;
 }
 
-input[type="text"] {
+input{
     width: 100%;
     padding: 10px;
     margin: 10px 0;
     border: 0.5px solid cadetblue;
+    color: white;
     background: none;
     border-radius: 5px;
 }
