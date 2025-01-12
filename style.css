@@ -1,0 +1,36 @@
+body {
+    background: radial-gradient(60.7% 85.82% at 61.87% 35.75%, #142D2E 0%, #0F0F0F 100%);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.calculator {
+    background-color: #1e1e1e;
+    padding: 20px;
+    box-shadow: 0 0 100px rgba(68, 68, 68, 0.5);
+    text-align: center;
+}
+.calculator-bg{
+    height: 100vh;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 0.5px solid cadetblue;
+    background: none;
+    border-radius: 5px;
+}
+
+button {
+    margin: 5px;
+}
+.result{
+    padding: 40px;
+    border: 2px solid cadetblue;
+    border-radius: 10px;
+}
